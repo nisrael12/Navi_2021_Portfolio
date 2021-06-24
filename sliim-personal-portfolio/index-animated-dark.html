@@ -26,6 +26,17 @@
 
     <!-- Modernizr JS File -->
     <script src="js/modernizr.js"></script>
+
+    <style>
+        .linkHover{
+            text-decoration: none;
+        }
+        .linkHover:hover {
+            text-decoration: none;
+            color: #fff !important;
+            transition: all .5s ease-in-out;
+        }
+    </style>
 </head>
 
 <body class="index dark">
@@ -101,7 +112,7 @@
                     </li>
                     <li class="instagram"><a title="Instagram" href="https://www.instagram.com/navi_israel12"><i class="fa fa-instagram"></i></a>
                     </li>
-                    <li class="linkedin"><a title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                    <li class="linkedin"><a title="Linkedin" href="#"><i class="fa fa-linkedin" style="display: none;"></i></a>
                     </li>
                 </ul>
             </div>
@@ -110,8 +121,8 @@
             <div class="home-contact d-none d-sm-block">
                 <p>
                     Let's work together
-                    <a class="d-block" href="#">developer@naviisrael.com</a>
-                    <span>(469) 602-8649</span>
+                    <a class="d-block linkHover" target="_blank" href="mailto: developer@naviisrael.com">developer@naviisrael.com</a>
+                    <span> <a href="tel:4696028649" target="_blank" class="linkHover">(469) 602-8649</a> </span>
                 </p>
             </div>
             <!-- Home Contact Ends -->
@@ -196,7 +207,7 @@
                                         <h6 class="mb-0">2019 - now</h6>
                                     </div>
                                     <span class="company d-inline-block mb-2">Small Business Adminstration</span>
-                                    <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.</p>
+                                    <p>Process loan application, using the the federal SBA guildlines</p>
                                 </div>
                                 <!-- Experience Item Ends -->
                                 <!-- Experience Item Starts -->
@@ -206,7 +217,7 @@
                                         <h6 class="mb-0">2015 - 2018</h6>
                                     </div>
                                     <span class="company d-inline-block mb-2">Dallas County Human & Health Services</span>
-                                    <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.</p>
+                                    <p>Ensures contractual deadlines are met, and the residents’ performance is monitored and documented properly.</p>
                                 </div>
                                 <!-- Experience Item Ends -->
                             </div>
@@ -220,7 +231,7 @@
                                         <h6 class="mb-0">2009 - 2011</h6>
                                     </div>
                                     <span class="company d-inline-block mb-2">Sam Houston University</span>
-                                    <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.</p>
+                                    <p>Computer Science Major</p>
                                 </div>
                                 <!-- Education Item Ends -->
                                 <!-- Education Item Starts -->
@@ -230,7 +241,7 @@
                                         <h6 class="mb-0">2009</h6>
                                     </div>
                                     <span class="company d-inline-block mb-2">Desoto High School</span>
-                                    <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.</p>
+                                    <p style="display: none;">Curabitur mollis bibendum luctus. Duis suscipit vitae dui metus sollicitudin sed suscipit.</p>
                                 </div>
                                 <!-- Education Item Ends -->
                                 
@@ -617,16 +628,16 @@
                     <!-- Contact Box Item Starts -->
                     <div class="col-12 col-lg-4">
                         <div class="box">
-                            <span class="material-icons">call</span>
-                            <p>(469) 602-8649</p>
+                            <span class="material-icons"><a href="tel:4696028649" target="_blank" class="linkHover">call</a></span>
+                            <p><a href="tel:4696028649" target="_blank" class="linkHover">(469) 602-8649</a></p>
                         </div>
                     </div>
                     <!-- Contact Box Item Ends -->
                     <!-- Contact Box Item Starts -->
                     <div class="col-12 col-lg-4">
                         <div class="box">
-                            <span class="material-icons">email</span>
-                            <p>developer@naviisrael.com</p>
+                            <span class="material-icons"><a href="mailto: developer@naviisrael.com" target="_blank" class="linkHover">email</a></span>
+                            <p><a href="mailto: developer@naviisrael.com" target="_blank" class="linkHover">developer@naviisrael.com</a></p>
                         </div>
                     </div>
                     <!-- Contact Box Item Ends -->
