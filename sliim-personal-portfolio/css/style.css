@@ -100,7 +100,7 @@ body:not(.index) #wrapper {
     position: relative;
     z-index: 0;
     display: inline-block;
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
 }
 
 a {
@@ -689,7 +689,7 @@ body.video #videobg {
     text-transform: capitalize;
     margin: 0;
     font-weight: 400;
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
 }
 
 .home-section .hero-section h2 span {
@@ -819,7 +819,7 @@ body.video #videobg {
     font-weight: 700;
     font-size: 38px;
     line-height: 38px;
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
 }
 
 .about-section h4.subtitle span {
@@ -881,7 +881,7 @@ body.video #videobg {
 .about-section .resume-item h5 {
     font-size: 21px;
     font-weight: 600;
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
     margin-top: -7px;
 }
 
@@ -1303,7 +1303,7 @@ body.video #videobg {
     font-weight: 700;
     font-size: 38px;
     line-height: 38px;
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
     margin: 0;
 }
 
@@ -1514,7 +1514,7 @@ body.video #videobg {
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 18px;
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
     font-size: 28px;
     line-height: 28px;
 }
@@ -1636,7 +1636,7 @@ body.video #videobg {
 }
 
 .blog-section .entry-header a {
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
     font-size: 27px;
     line-height: 27px;
     margin: 30px 0 9px;
@@ -1668,7 +1668,7 @@ body.video #videobg {
     margin: 10px 0 22px;
     text-decoration: none;
     font-weight: 700;
-    font-family: "Playfair Display", serif;
+    font-family: "IBM Plex Sans", serif;
 }
 
 .single-post-container img {
